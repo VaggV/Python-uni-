@@ -1,4 +1,4 @@
-#python 3.7
+#python 3.6
 
 import tkinter, random, os, tkinter.messagebox, tkinter.simpledialog
 
