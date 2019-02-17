@@ -42,7 +42,6 @@ def prepareGame():
     for x in range(0, rows):
         field.append([])
         for y in range(0, cols):
-            #add button and init value for game
             field[x].append(0)
     for _ in range(0, mines): #vazoume tis narkes ston pinaka tou narkalieuth me thn xrhsh ths randint apo thn vivliothiki random
         x = random.randint(0, rows-1)
